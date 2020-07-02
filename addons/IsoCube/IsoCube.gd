@@ -133,9 +133,9 @@ func _update_right_pool_color():
 
 func _update_top_point_array():
 	_cached_top_point_array = [
-		Vector2(_cached_size,_cached_y_position_difference), 
-		Vector2(_cached_size*2,_cached_size/2 + _cached_y_position_difference), 
-		Vector2(_cached_size,_cached_size +_cached_y_position_difference), 
+		Vector2(_cached_size,_cached_y_position_difference),
+		Vector2(_cached_size*2,_cached_size/2 + _cached_y_position_difference),
+		Vector2(_cached_size,_cached_size +_cached_y_position_difference),
 		Vector2(0,_cached_size/2 + _cached_y_position_difference)
 	]
 
