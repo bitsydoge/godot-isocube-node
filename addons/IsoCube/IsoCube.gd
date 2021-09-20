@@ -185,6 +185,7 @@ func _ready():
 	connect("resized", self, "_update_rect_size")
 
 func _draw():
+	_update_rect_size();
 	# Top face
 	draw_polygon(_cached_top_point_array, _cached_top_pool_color, _top_uv, top_texture, null, antialiasing)
 	# Left face
